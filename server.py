@@ -331,7 +331,7 @@ if __name__ == '__main__':
     # count records at last of the day
     schedule_task(
         # set hr as Hour (24 hr 0-23) and min as minute (0-59)
-        hr=23, min=59, sec=59
+        hr=23, min=58
     )
     # starting flask server
     start_server(
